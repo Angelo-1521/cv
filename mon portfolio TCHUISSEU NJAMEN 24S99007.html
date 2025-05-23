@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tchuisseu Njamen | Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #1f1f1f, #333);
+      color: white;
+      padding: 4rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #bbb;
+    }
+
+    nav {
+      background-color: #222;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #00bfa6;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 3rem 2rem;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #111;
+    }
+
+    .project {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    footer {
+      background: #111;
+      color: #ccc;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    a {
+      color: #00bfa6;
+      text-decoration: none;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      nav {
+        flex-direction: column;
+      }
+
+      nav a {
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><b><u>Tchuisseu Njamen</u></b></h1>
+    <p>Développeur Web & Designer UI/UX</p>
+  </header>
+
+  <nav>
+    <a href="#about">À propos</a>
+    <a href="#projects">Projets</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>À propos</h2>
+    <p>
+      Je suis Tchuisseu Njamen, développeur web passionné spécialisé en conception d'interfaces modernes et performantes.
+      Mon objectif est de créer des expériences utilisateurs intuitives et efficaces.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Mes Projets</h2>
+
+    <div class="project">
+      <h3>Application E-commerce Moderne</h3>
+      <p>
+        Développement d'une plateforme de vente avec React, Stripe pour les paiements, et Firebase pour la gestion des utilisateurs.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>Portfolio Dynamique</h3>
+      <p>
+        Un portfolio interactif réalisé avec HTML, CSS moderne, et animations fluides. Optimisé pour mobile.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Envoyez-moi un message à <a href="mailto:angelopayker@gmail.com">angelopayker@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Tchuisseu Njamen. Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>
